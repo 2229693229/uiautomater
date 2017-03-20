@@ -1242,3 +1242,47 @@ compile:
       [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
       [dex] Found Deleted Target File
       [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+Updated file D:\GitHub\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: D:\GitHub\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.4
+ [checkenv] Installed at E:\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Google APIs
+[getuitarget] Vendor:           Google Inc.
+[getuitarget] Platform Version: 6.0
+[getuitarget] API level:        23
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\GitHub\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to D:\GitHub\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\GitHub\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Converting compiled files and external libraries into D:\GitHub\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\GitHub\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 7 seconds
