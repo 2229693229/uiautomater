@@ -14,15 +14,15 @@ public class Demo1 extends UiAutomatorTestCase{
 	public static void main(String[] args) {
 		//new UiAutomatorHelper("Demo", "com.jikexueyuan.demo.Demo1", "testBrowser", "1");
 		
-		String workspase, className, jarName, androidId, sdkpath;
-		workspase="D:\\GitHub\\UiAutomatorHelper\\UiAutomatorDebug";
-		className="com.jikexueyuan.demo.Demo1";
-		jarName="demo1";
-		androidId="18";
-		sdkpath="E:\\android-sdk";
-		CtsHelper cts=new CtsHelper(workspase, className, jarName, androidId, sdkpath);
-		//cts.setDevices("0123456789");
-		cts.runTest();
+// 		String workspase, className, jarName, androidId, sdkpath;
+// 		workspase="D:\\GitHub\\UiAutomatorHelper\\UiAutomatorDebug";
+// 		className="com.jikexueyuan.demo.Demo1";
+// 		jarName="demo1";
+// 		androidId="18";
+// 		sdkpath="E:\\android-sdk";
+// 		CtsHelper cts=new CtsHelper(workspase, className, jarName, androidId, sdkpath);
+// 		//cts.setDevices("0123456789");
+// 		cts.runTest();
 
 	}
 	public void testBrowser() throws UiObjectNotFoundException{
